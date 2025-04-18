@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html" id="navbar">Home Page</a>
+        <a href="./about-me.html" id="navbar">About Me</a>
+        <a href="./contact.html" id="navbar">Contact Me</a>
+        <a href="./gallery.html" id="navbar">My Gallery</a>
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search...">
+        </div>
+        <img src="./images/MyLogo.png" alt="My logo" class="logo">
+    </nav><hr>
+    <main>
+        <h1>Contact Form</h1>
+    <fieldset>
+        <form action="server.php">
+            <div class="Names">
+                <div>
+                    <label>First Name*:</label>
+                    <input type="text" placeholder="Enter Your First Name" required>
+                </div>
+                <div>
+                    <label>Last Name*:</label>
+                    <input type="text" placeholder="Enter Your Last Name" required>
+                </div>
+            </div>
+           <br><br><br>
+            <div class="GI">
+               <section class="Gender">
+                        
+                            <label>Gender*:</label>
+                                <input type="radio" name="Gender" id="male" required>
+                                <label for="Gender">male</label>
+                                <input type="radio" name="Gender" id="female">
+                                <label for="Gender">Female</label>
+                                <input type="radio" name="Gender" id=" Prefer not to say">
+                                <label for="Gender">Prefer not to say</label>
+                        
+                </section>
+                <!-- add checkbox -->
+                <section class="interesting">
+                    <label for="checkbox">Which part of my preparation for migration is more interesting to you? *</label>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="option" value="1">
+                            <label for="checkbox">learning German</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="option" value="2">
+                            <label for="checkbox">Planing</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="option" value="3">
+                            <label for="checkbox">Writting Essays</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="option" value="4">
+                            <label for="checkbox">Getting a recommendation letter</label>
+                        </li>  
+                    </ul>
+                </section><br>
+                <!-- textarea -->
+                 <label for="textarea">Message</label>
+                <textarea name="Message" id="Message" cols="35" rows="5" required></textarea>
+                <input type="submit">
+            </div>   
+        </form>
+    </fieldset> 
+    <p>If you have any suggestions or criticisms, my direct contact method is via <a href="mailto:masoumegnjizade@gmail.com">email</a>.
+    </p><br><br><hr>
+    </main>
+    <footer>
+        <div class="footer2">
+            <img src="./images/MyLogo.png" alt="My logo">
+            <p>📩📨📧</p>
+
+        </div><br>
+        <div class="navfooter" style="font-size: x-small;">
+            <a href="./index.html">Home Page</a>
+            <a href="./about-me.html">About Me</a>
+        
+            <a href="./contact.html">Contact Me</a>
+            <a href="./gallery.html">My Gallery</a>
+            
+        </div>
+        <p style="font-size: x-small;">Copyright © 2025 Masoumeh Ganjizadeh. All rights reserved.</p>
+    </footer>
+</body>
+</html>

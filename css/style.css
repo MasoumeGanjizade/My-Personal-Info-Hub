@@ -1,0 +1,116 @@
+.search-container {
+    text-align: center;
+}
+.search-box {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #FB5D5D;
+    -webkit-text-fill-color: #f88f8f;
+    border-radius: 5px;
+    outline: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none; 
+    color: #000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Center items vertically */
+}
+#navbar:hover{
+    color: #FB5D5D;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px; /* Add some space to the left of the navbar items */
+}
+h1,h2,h3,h4,h5{
+    color: #FB5D5D;
+}
+body{
+    background-color:  #fffff7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+fieldset{
+    background-color: #F8F3E9;
+}
+form input::-webkit-input-placeholder{
+    color: #FB5D5D;
+}
+input{
+    color: #FB5D5D;
+}
+.Names{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+    
+}
+.GI{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+footer img{
+    width: 100px;
+    height: 70px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navfooter{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #FB5D5D;
+}
+.facts-quote{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+
+}
+.about-favorite{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+
+}
+.img-gallery{
+    width: 100%;
+    height: 20%;
+}
+figure {
+    position: relative;
+    margin: 0;
+}
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FB5D5D;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
